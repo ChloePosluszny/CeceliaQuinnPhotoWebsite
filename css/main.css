@@ -288,7 +288,19 @@ z-index:2;transition: width 0.3s; z-index:1}
 
 .map-wrapper{ width:100%;height:453px; background-color:#e6e4e4}
 
-.map-wrapper #surabaya {width: 100%;height: 100%;}
+.map-wrapper #google-maps {
+	position: relative;
+	height:453px;
+    overflow: hidden;
+}
+
+.map-wrapper #google-maps iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
 
 .contact-wrapper{ margin-top:80px; margin-bottom:90px;}
 
