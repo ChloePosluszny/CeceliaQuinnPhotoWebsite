@@ -146,9 +146,10 @@ a:focus, img:focus, button:focus, .btn:focus {outline:none;text-decoration: none
 
 .menu {transition: all 0.40s ease-out; width:117px; height:45px; cursor:pointer; position:absolute; right:0; top:0; z-index:5; border-radius:100%;}
 
-.nav-icon p{font-family: 'park_lane_nfregular', serif; font-size: 35px;position:absolute; right:0; top:0; padding-left:11px}; height: ai
+.nav-icon p{font-family: 'park_lane_nfregular', serif; font-size: 35px; position:relative; right:0; padding-left:11px; height: auto; margin-top: 10%;}
 /*background-image:url(../images/nav.png); background-repeat:no-repeat; background-position:0 7px*/
-.over {transform: scale(100);transition: all 0.350s ease-in;cursor: default;}
+
+.over {transform: scale(100); transition: all 0.350s ease-in; cursor: default}
 
 .linea1 {background: #222222;height: 2px;width: 15px;position: absolute;right: 33px;top: 33px;z-index:90;transition: all 0.3s;opacity:0}
 
@@ -200,15 +201,15 @@ a:focus, img:focus, button:focus, .btn:focus {outline:none;text-decoration: none
 
 .main-menu ul li{ position:relative; }
 
-.main-menu ul li:after {content: "";position:absolute;bottom:0%; left:0; right:0; margin:0 auto;width:6%; height:1px; background:#222222; /*deals with underline in over menu*/
+.main-menu ul li:after {width:120px; content: "";position:absolute;bottom:0%; left:0; right:0; margin:0 auto; height:1px; background:#222222; /*deals with underline in over menu*/
 
 z-index:2;transition: width 0.3s; z-index:1}
 
-.main-menu ul li:hover:after{ width:6%; bottom: 50%; height: 1px}
+.main-menu ul li:hover:after{ width:120px; bottom: 50%; height: 1px}
 
-.main-menu ul li.active:after{ width:6%; bottom: 50%; height: 1px}
+.main-menu ul li.active:after{ width:120px; bottom: 50%; height: 1px}
 
-.main-menu ul li a {font-family: 'park_lane_nfregular'; text-decoration: none; color:#222222; position:relative; z-index:2; display:block;} /* over menu text */
+.main-menu ul li a {font-family: 'park_lane_nfregular'; text-decoration: none; color:#222222; position:relative; z-index:2; display:block;} /* over menu text 	*/
 
 /* ==========================================================================
 
