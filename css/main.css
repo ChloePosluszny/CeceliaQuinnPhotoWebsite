@@ -289,7 +289,9 @@ z-index:2;transition: width 0.3s; z-index:1}
 
 .details-content header h2{ font-weight:600; }
 
-.details-image{ margin-bottom:80px ; width: 85%; margin-left: auto; margin-right: auto}
+.details-image{ margin-bottom:80px ; width: 85%; margin-left: auto; margin-right: auto;}
+
+.details-image img{max-height: 450px;}
 
 /* ==========================================================================
 
@@ -366,7 +368,9 @@ z-index:2;transition: width 0.3s; z-index:1}
 
 .post { margin-bottom:74px ; max-height: 65%}
 
-.post figure{ margin-bottom:76px}
+.post figure{ margin-bottom:76px;}
+
+.post figure img {max-height: 650px;}
 
 .post .date{ font-weight:600; font-size:16px; color:#343434}
 
